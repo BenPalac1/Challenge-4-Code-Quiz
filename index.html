@@ -1,53 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Coding Quiz</title>
-        <link rel="stylesheet" href="./assets/css/style.css"/>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\style.css">
+    <title>Code Quiz</title>
+</head>
+<body>
+    <button id="start-btn">Start Quiz</button>
+    <button id="view-scores-btn">View High Scores</button>
+    <button id="restart-btn" hidden>Restart Quiz</button>
 
-    <body>
-        <header>
-            <div class="scores">
-                <a href="highscores.html">Highscores</a>
-            </div>
-
-            <div class="timer">
-                Timer: <span id="time">0</span>
-            </div>
-        </header>
-
-        <div class="main">
-            <div id="start-screen" class="start">
-                <h1>Coding Quiz Challenge</h1>
-                    <p>Try to answer the folllowing code-related questions within the time limit.  
-                        Keep in mind that incorrect answers will penalize your score/time by 15 seconds!
-                    </p>
-                <button id="start">Start Quiz</button>
-            </div>
-
-            <div id="questions" class="hidden">
-                <h2 id="question-title"></h2>
-                <div id="options" class="options">
-                </div>
-            </div>
-
-            <div id="all-done" class="hidden">
-                <h2>All Done!</h2>
-                <p>Your final score is <span id="final-score"></span>.</p>
-                <p>Please Enter Your Initials: <input type="text" id="initials" max="3"/>
-                    <button id="submit">Submit</button>
-                </p>
-            </div>
-
-            <div id="feedback" class="feedback hide">                
-            </div>
-
+    <div id="quiz-container">
+        <h2>Coding Quiz Challenge</h2>
+        <div id="question-container">
+            <p id="question"></p>
+            <ul id="options" class="options-list"></ul>
         </div>
-        
-        <script src="./assets/js/script.js"></script>
-    
-    </body>
-</html>
+        <p id="score"><span id="score-value" hidden></span></p>
+        <div id="initials-form" hidden>
+            <label for="initials">Enter Your Initials:</label>
+            <input type="text" id="initials" maxlength="3">
+            <button id="save-score-btn">Save Score</button>
+        </div>
+        <div id="high-scores" hidden>
+            <h3>High Scores</h3>
+            <ul id="high-scores-list"></ul>
+        </div>
 
+        <div id="timer">Time: <span id="timer-display">1:00</span></div>
+    </div>
+    
+
+    <script src="assets\js\script.js"></script>
+</body>
+</html>
