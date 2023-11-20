@@ -48,6 +48,7 @@ Module 4 Challenge
 https://github.com/BenPalac1/Challenge-4-Code-Quiz/assets/139652929/17847210-2626-41bb-966b-5839932781d3
 
 ## Other Resources:
+
     -Xpert Learning assistant
     -Youtube.com
     -MDN Web Docs
