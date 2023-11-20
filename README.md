@@ -2,12 +2,12 @@
 Module 4 Challenge
 
 ## Description:
-This repo contains my solution for the Module 4 Challenge of the Full Stack Web Development course.
+    This repo contains my solution for the Module 4 Challenge of the Full Stack Web Development course.
 
-  This Coding Quiz application allows a user to take a multiple choice quiz and save their highscores to localStorage.
-    When users click the start button a 60 second timer coutns down and the first question is shown.  For every question answered 
-    incorrectly, 10 seconds are deducted from the timer.  The quiz is over when the user answers all of the questions in the given 
-    time or the timer reaches 0.  At the end of the quiz, users can submit their highscore and initials.
+    This Coding Quiz application allows a user to take a multiple choice quiz and save their highscores to localStorage.
+      When users click the start button a 60 second timer coutns down and the first question is shown.  For every question answered 
+      incorrectly, 10 seconds are deducted from the timer.  The quiz is over when the user answers all of the questions in the given 
+      time or the timer reaches 0.  At the end of the quiz, users can submit their highscore and initials.
 
 ## User Story:
   AS A coding boot camp student
@@ -40,27 +40,28 @@ This repo contains my solution for the Module 4 Challenge of the Full Stack Web 
   THEN I can save my initials and score
 
 ## Instructions:
-  Open the index.html in a browser.  Click the Start button to begin the quiz.  Answer all questions by clicking on one of the multiple choices for each.
-  At the end of the quiz enter your initials and click Save Score.  To try again just refresh the page. Rinse and Repeat as needed.
+    Open the index.html in a browser.  Click the Start button to begin the quiz.  Answer all questions by clicking on one of the multiple choices for each.
+    At the end of the quiz enter your initials and click Save Score.  To try again just refresh the page. Rinse and Repeat as needed.
 
 ## Video showing functionality:
 
 https://github.com/BenPalac1/Challenge-4-Code-Quiz/assets/139652929/17847210-2626-41bb-966b-5839932781d3
 
 ## Other Resources:
-  -Xpert Learning assistant
-  -Youtube.com
-  -MDN Web Docs
-  -StackOverflow.com
-  -DigitalOcean.com
-  -ChatGPT
-  -Styling used:
-    -CSS
+    -Xpert Learning assistant
+    -Youtube.com
+    -MDN Web Docs
+    -StackOverflow.com
+    -DigitalOcean.com
+    -ChatGPT
+    -Styling used:
+      -CSS
     
 ## Link to Deployed:
-## License
 
 
+
+## License:
 MIT License
 
 Copyright (c) 2023 Ben Palacpac
@@ -82,7 +83,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-
